@@ -12,9 +12,18 @@
 </head>
 <body>
 	<div class="wrap reset">
-		<?php
-			include 'header.html';	
-		?>
+		<div id="header">
+			<div class="home_area"><spam class="icon home"></spam></div>
+			<div class="nav_btn">
+				<span class="step1 on"></span>
+				<span class="step2"></span>
+				<span class="step3"></span>
+				<span class="step4"></span>
+			</div>
+			<nav class="nav">
+
+			</nav>
+		</div>
 		<div id="container">
 			<div class="page_name">정보입력</div>
 			<div id="main">
