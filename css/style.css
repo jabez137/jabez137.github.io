@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import url(reset.css);
+@import url(ui.css);
+
+.sec {margin-bottom: 100px; padding: 0 20px;}
+.sec:last-child {margin-bottom: 0;}
+
+#count .bg{background: #eff9ff;}
+
+#count .sec {padding: 40px 20px; margin-bottom: 0;}
+#count .sec:last-child {padding-bottom: 0;}
+#count .sec1  {padding-top: 0; border-bottom: 1px solid #d8d8d8;}

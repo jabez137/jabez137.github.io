@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {font-family:  'noto-sans', sans-serif; word-break: keep-all;} 
+body:before {display: block; content: ''; position:fixed; top: 0; right: 0; bottom: 0; left: 0;  background: url(../img/bg.png) center center no-repeat; background-size: cover; z-index: -1;}
+
+#header{position: fixed; top: 0; left: 0; right: 0; text-align: center; height: 50px; box-sizing: border-box; padding-top: 20px;}
+
+.home_area {position: absolute; left: 20px; top: 18px;}
+
+.nav_btn {width: 24px; height: 20px; position: absolute; right: 15px; top: 20px;}
+.nav_btn span {display: block; width: 2px; height: 15px; background: #2b78cb; float: left; margin-right: 4px;}
+.nav_btn span:last-child {margin-right: 0;}
+.nav_btn span.on {background: #fff;}
+
+#container {padding-top: 50px;}
+.page_name {position: fixed; top: 20px; left: 0; right: 0; color: #fff; font-size: 15px; text-align: center; z-index: -1;} 
+
+#container .box_area {background: #fff; padding-top: 50px; border-radius: 20px; box-shadow: 3px 5px 15px rgba(0,0,0,.3); margin: 20px; overflow: hidden}
+#container .btn_area {margin: 20px 0 30px;}
+#container .btn_area .btn {font-size: 20px; color: #fff; padding: 0 20px;}
+#container .btn_area .btn span {vertical-align: 3px}
+#container .btn_area .prev {float: left;}
+#container .btn_area .prev span{margin-right: 10px;}
+#container .btn_area .next {float: right;}
+#container .btn_area .next span {margin-left: 10px;}

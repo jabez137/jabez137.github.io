@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*---------- common 시작 ---------*/
+
+/* grid */
+.row {display: block;}
+.row:after {content: ""; display: block; clear: both;}
+.row5 {margin-left: -5px; margin-right: -5px;}
+.row10 {margin-left: -10px; margin-right: -10px;}
+.row20 {margin-left: -20px; margin-right: -20px;}
+
+
+.col {display: block; float: left; box-sizing: border-box}
+.col.right {display: block; float: right;}
+.col5 {padding-left: 5px; padding-right: 5px;}
+.col10 {padding-left: 10px; padding-right: 10px;}
+.col20 {padding-left: 20px; padding-right: 20px;}
+
+.col.full {width: 100%;}
+.col.half {width: 50%;}
+.col.triple {width: 33.3%;}
+.col.triple.x2 {width: 66.6%;}
+.col.quad {width: 25%;}
+.col.quad.x2 {width: 50%;}
+.col.quad.x3 {width: 75%;}
+.col.five {width: 20%;}
+.col.five.x2 {width: 40%;}
+.col.five.x3 {width: 60%;}
+
+/* margin */
+.topM10 {margin-top: 10px !important;}
+.topM20 {margin-top: 20px !important;}
+.topM25 {margin-top: 25px !important;}
+.topM30 {margin-top: 30px !important;}
+.topM50 {margin-top: 50px !important;}
+.rightM10 {margin-right: 10px !important;}
+.rightM20 {margin-right: 20px !important;}
+.rightM25 {margin-right: 25px !important;}
+.rightM30 {margin-right: 30px !important;}
+.bottomM10 {margin-bottom: 10px !important;}
+.bottomM20 {margin-bottom: 20px !important;}
+.bottomM25 {margin-bottom: 25px !important;}
+.bottomM30 {margin-bottom: 30px !important;}
+.bottomM40 {margin-bottom: 40px !important;}
+.bottomM50 {margin-bottom: 50px !important;}
+.bottomM80 {margin-bottom: 80px !important;}
+.leftM10 {margin-left: 10px !important;}
+.leftM20 {margin-left: 20px !important;}
+.leftM25 {margin-left: 25px !important;}
+.leftM30 {margin-left: 30px !important;}
+.leftM130 {margin-left: 130px !important;}
+
+.noM {margin: 0 !important;}
+.noTopM {margin-top: 0 !important;}
+.noRightM {margin-right: 0 !important;}
+.noBottomM {margin-bottom: 0 !important;}
+.noLeftM {margin-left: 0 !important;}
+
+/* padding */
+.topP10 {padding-top: 10px !important;}
+.topP20 {padding-top: 20px !important;}
+.topP25 {padding-top: 25px !important;}
+.topP30 {padding-top: 30px !important;}
+.topP50 {padding-top: 50px !important;}
+.rightP10 {padding-right: 10px !important;}
+.rightP20 {padding-right: 20px !important;}
+.rightP25 {padding-right: 25px !important;}
+.rightP30 {padding-right: 30px !important;}
+.bottomP10 {padding-bottom: 10px !important;}
+.bottomP20 {padding-bottom: 20px !important;}
+.bottomP25 {padding-bottom: 25px !important;}
+.bottomP30 {padding-bottom: 30px !important;}
+.bottomP50 {padding-bottom: 50px !important;}
+.leftP10 {padding-left: 10px !important;}
+.leftP20 {padding-left: 20px !important;}
+.leftP25 {padding-left: 25px !important;}
+.leftP30 {padding-left: 30px !important;}
+
+.noP {padding: 0 !important;}
+.noTopP {padding-top: 0 !important;}
+.noRightP {padding-right: 0 !important;}
+.noBottomP {padding-bottom: 0 !important}
+.noLeftP {padding-left: 0 !important}
+
+/* text-align */
+.taL {text-align: left !important;}
+.taR {text-align: right !important;}
+.taC {text-align: center !important;}
+
+
+/* clear */
+.clear {clear: both;}
+.clearFix:after, .inner:after {content: ""; display: block; clear: both;}
+
+.img_area {text-align: center;}
+.img_area img{max-width: 100%;}
+
+.vaT {vertical-align: top !important;}
+.vaM {vertical-align: middle !important;}
+
+
+/*---------- common 끝 ---------*/
+
+
+/*---------- button 시작 ---------*/
+.btn_area {display: inline-block; vertical-align: middle}
+.btn_area.block {display: block;}
+.btn_area .btn {display: inline-block; font-size: 16px; line-height: 56px; box-sizing: border-box; }
+.btn_area .btn:last-child {margin-right: 0;}
+
+
+.btn {display: inline-block; color: #444; background: transparent; box-sizing: border-box;}
+.btn:hover {}
+
+.btn.full {width: 100%}
+.btn.half {width: 50%}
+.btn.triple {width: 33.33%}
+.btn.quad {width: 25%}
+.btn.five {width: 20%;}
+
+/*---------- button 끝 ---------*/
+
+.icon {display: inline-block; text-indent: -9999px; background-repeat: no-repeat; background-position: center center}
+.icon.r5 {margin-right: 5px;}
+
+.icon.home {width:21px; height: 21px; background-image: url(../img/icon/icon_home.png);background-size: 21px auto}
+
+.icon.arrow {width: 13px; height: 7px; background-image: url(../img/icon/icon_arrow.png); background-size: 13px auto}
+.prev .icon.arrow {transform: rotate(180deg)}
+
+.require {display: inline-block; width: 4px; height: 4px; background: #099e41; border-radius: 2px; position: absolute; left: 0; top: 50%; margin-top: -3px;}
