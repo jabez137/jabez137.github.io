@@ -2,35 +2,39 @@
   "name": "My PWA Test", 
   "short_name": "PWA Test", 
   "lang": "en-US", 
-  "start_url": '/?launcher=true',
-  "background_color": '#f1f2f7',
-  "theme_color": '#dc143c',
-  "isplay": 'fullscreen',
+  "start_url": "/?launcher=true",
+  "background_color": "#f1f2f7",
+  "theme_color": "#dc143c",
+  "isplay": "fullscreen",
   "icons": [
   {
-    "src": '/img/launcher-icon-1x.png',
-    "type": 'image\/png',
-    "sizes": '48x48',
+    "src": "/img/launcher-icon-1x.png",
+    "type": "image\/png",
+    "sizes": "48x48",
+    "density": "1.0"
   },
   {
-    "src": '/img/launcher-icon-2x.png',
-    "type": 'image\/png',
-    "sizes": '96x96',
+    "src": "/img/launcher-icon-2x.png",
+    "type": "image\/png",
+    "sizes": "96x96",
+    "density": "2.0"
   },
   {
-    "src": '/img/launcher-icon-3x.png',
-    "type": 'image\/png',
-    "sizes": '144x144',
+    "src": "/img/launcher-icon-3x.png",
+    "type": "image\/png",
+    "sizes": "144x144",
+    "density": "3.0"
   },
   {
-    "src": '/img/launcher-icon-4x.png',
-    "type": 'image/\/png',
-    "sizes": '192x192',
+    "src": "/img/launcher-icon-4x.png",
+    "type": "image/\/png",
+    "sizes": "192x192",
+    "density": "4.0"
   },
   {
-    "src": '/img/favicon.png',
-    "type": 'image\/png',
-    "sizes": '1024x1024',
+    "src": "/img/favicon.png",
+    "type": "image\/png",
+    "sizes": "1024x1024",
   },
   ]
 };
