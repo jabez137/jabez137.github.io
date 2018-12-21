@@ -1,11 +1,12 @@
 {
-  "name": "My PWA Test", 
-  "short_name": "PWA Test", 
+  "name": "PWA_Test", 
+  "short_name": "PWA_Test", 
   "lang": "en-US", 
   "start_url": "/?launcher=true",
   "background_color": "#f1f2f7",
   "theme_color": "#dc143c",
   "display": "standalone",
+  "description": "A simply readable Hacker News app.",
   "icons": [
   {
     "src": "/img/launcher-icon-1x.png",
@@ -36,5 +37,9 @@
     "type": "image\/png",
     "sizes": "1024x1024"
   }
-  ]
+  ],
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=cheeaun.PWA_Test"
+  }]
 }
