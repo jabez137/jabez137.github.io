@@ -44,5 +44,11 @@
   }, {
     "platform": "itunes",
     "url": "https://itunes.apple.com/app/example-app1/id=cheeaun.PWA_Test"
+  }],
+  
+  "screenshots": [{
+    "src": "/img/1.png",
+    "sizes": "500x7970",
+    "type": "image/jpeg"
   }]
 }
